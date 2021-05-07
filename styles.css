@@ -9,9 +9,9 @@
   /* Color of the background */
   --bodycolor: #efefef;
   /* Width of the columns */
-  --boxwidth: 400px;
+  --boxwidth: 500px;
   /* Height of the rows */
-  --boxheight: 200px;
+  --boxheight: 300px;
   /* Width of the bubble (it's always a circle, width and height are the same) */
   --icon-box-dimensions: 200px;
   /* DON'T TOUCH THE VALUES OF THIS VARIABLE! */
