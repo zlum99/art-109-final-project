@@ -9,7 +9,7 @@
   /* Color of the background */
   --bodycolor: #efefef;
   /* Width of the columns */
-  --boxwidth: 500px;
+  --boxwidth: 400px;
   /* Height of the rows */
   --boxheight: 300px;
   /* Width of the bubble (it's always a circle, width and height are the same) */
@@ -33,6 +33,8 @@ body {
   font-family: 'Lato', sans-serif;
   padding: 0px;
   background: var(--bodycolor);
+  background-color: #f8ef42;
+  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
 }
 
 /* grid-container */
