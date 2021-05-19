@@ -22,11 +22,15 @@
   /* Size of the font */
   --content-fontsize: 1.1em;
   /* Define a accent color, make sure it's readable */
-  --accentcolor: green;
+  --accentcolor: white;
   /* backgroundcolor and text color of the button, unhovered.
 /* Color in hovered state is the accent color */
   */ --btntext-background: rgba(255, 255, 255, 0.1);
-  --btntext-color: #eee;
+  --btntext-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -38,7 +42,11 @@ body {
 }
 
 .boxes {
-  /* margin-top: -100vh; */
+  margin-top: -100vh;
+}
+
+.text-container {
+  padding-bottom: 300px;
 }
 
 /* grid-container */
@@ -55,6 +63,9 @@ body {
   grid-gap: 30px;
   justify-content: center;
   box-sizing: border-box;
+  background: var(--bodycolor);
+  background-color: #f8ef42;
+  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
 }
 
 /* this is the card selecter */
@@ -63,7 +74,7 @@ body {
   display: block;
   overflow: hidden;
   box-sizing: border-box;
-  background: #efefef;
+  background: #03a9f4;
   transition: 0.5s;
 }
 
@@ -276,7 +287,7 @@ header .logo {
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
+  padding: 0px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
