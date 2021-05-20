@@ -3,8 +3,7 @@
   box-sizing: border-box;
 }
 
-/* Developed by Frank Tielemans */
-/* CSS playground here, via these variables you can adjust the accentcolor, the position and dimensions of the bubble and textsize en color of the buttontext */
+
 :root {
   /* Color of the background */
   --bodycolor: #efefef;
@@ -53,7 +52,6 @@ body {
 .container {
   margin: 0 auto;
   padding: 2%;
-  top: 1400px;
   max-width: 100%;
   height: auto;
   position: relative;
@@ -283,7 +281,7 @@ header .logo {
 }
 
 .showcase {
-  position: absolute;
+  position: relative;
   right: 0;
   width: 100%;
   min-height: 100vh;

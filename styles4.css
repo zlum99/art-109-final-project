@@ -56,7 +56,7 @@ section img {
 
 #text {
   position: relative;
-  color: #0a2a43;
+  color: #fff;
   font-size: 10em;
   z-index: 1;
   justify-content: center;
@@ -77,8 +77,8 @@ section img {
 
 .container .box {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background: #ff0;
   margin: 10px;
   box-sizing: border-box;
@@ -91,8 +91,8 @@ section img {
 }
 
 .container .box .imgBox img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   transition: transform 2s;
   object-fit: cover;
 }

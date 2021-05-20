@@ -56,13 +56,12 @@ section img {
 
 #text {
   position: relative;
-  color: #0a2a43;
+  color: #fff;
   font-size: 10em;
   z-index: 1;
   justify-content: center;
   text-align: center;
   padding: 350px 600px;
-
 }
 
 /* image gallery */
