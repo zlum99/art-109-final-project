@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*
-{
-margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-sans-serif;
-box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +20,7 @@ section:before {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background: linear-gradient(to top,#0a2a43, transparent);
+  background: linear-gradient(to top, #0a2a43, transparent);
   z-index: 10000;
 }
 
@@ -62,5 +62,99 @@ section img {
   justify-content: center;
   text-align: center;
   padding: 350px 600px;
+}
 
+/* image gallery */
+.container {
+  width: 100%;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.container .box .imgBox {
+  position: relative;
+}
+
+.container .box .imgBox img {
+  width: 500px;
+  height: 500px;
+  transition: transform 2s;
+  object-fit: cover;
+}
+
+.container .box:hover .imgBox img {
+  transform: scale(1.2);
+}
+
+.container .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, .8);
+  transform: scaleY(0);
+  transition: transform .5x;
+}
+
+.container .box:hover .details {
+  transform: scaleY(1);
+}
+
+.container .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.container .box .details .content h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ff0;
+}
+
+.container .box .details .content p {
+  margin: 0px 0 0;
+  padding: 0;
+}
+
+/* footer */
+footer {
+  color: #fff;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  padding: 30px;
+  font-size: 2em;
+  text-align: center;
+  left: -20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.effect:hover {
+  color: #006400;
+  transition: 0.5s;
+  text-decoration: none;
 }

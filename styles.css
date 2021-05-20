@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   /* Color of the background */
   --bodycolor: #efefef;
@@ -35,9 +34,7 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   padding: 0px;
-  background: var(--bodycolor);
-  background-color: #f8ef42;
-  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+  background: #0a2a43;
 }
 
 .boxes {
@@ -61,9 +58,7 @@ body {
   grid-gap: 30px;
   justify-content: center;
   box-sizing: border-box;
-  background: var(--bodycolor);
-  background-color: #f8ef42;
-  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+  background: #0a2a43;
 }
 
 /* this is the card selecter */
@@ -72,7 +67,7 @@ body {
   display: block;
   overflow: hidden;
   box-sizing: border-box;
-  background: #03a9f4;
+  background: #90ee90;
   transition: 0.5s;
 }
 
@@ -413,7 +408,7 @@ header .logo {
 .menu ul li a {
   text-decoration: none;
   font-size: 24px;
-  color: #111;
+  color: white;
 }
 
 .menu ul li a:hover {

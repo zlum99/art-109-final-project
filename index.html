@@ -19,99 +19,99 @@
 
 <body>
 
-<div class="body-content">
+  <div class="body-content">
 
-  <section class="showcase">
-    <header>
-      <h2 class="logo">Oakland Zoo</h2>
-      <div class="toggle"></div>
-    </header>
-    <video src="videos/Oakland Zoo.mp4" autoplay="" muted="" loop=""></video>
-    <div class="overlay"></div>
-    <div class="text">
-      <h2>Get Out & Play </h2>
-      <p>Welcome to the Oakland Zoo! Explore our one of the best zoos in the Bay Area. The Zoo that not only has animals, but also attractions with spectacular views of the bay! </p>
-      <a href="#container">Explore</a>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Oakland Zoo</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="videos/Oakland Zoo.mp4" autoplay="" muted="" loop=""></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Get Out & Play </h2>
+        <p>Welcome to the Oakland Zoo! Explore our one of the best zoos in the Bay Area. The Zoo that not only has animals, but also attractions with spectacular views of the bay! </p>
+        <a href="#container">Explore</a>
+      </div>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/OakZoo/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+        <li><a href="https://twitter.com/oakzoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="https://www.instagram.com/oaklandzoo/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="animals.html">Animals</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="shopping.html">Shopping</a></li>
+      </ul>
     </div>
-    <ul class="social">
-      <li><a href="https://www.facebook.com/OakZoo/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="https://twitter.com/oakzoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="https://www.instagram.com/oaklandzoo/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-    </ul>
-  </section>
-  <div class="menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="animals.html">Animals</a></li>
-      <li><a href="attractions.html">Attractions</a></li>
-      <li><a href="food.html">Food</a></li>
-      <li><a href="shopping.html">Shopping</a></li>
-    </ul>
+
+    <script type="text/javascript">
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+
+
+    <div class="container" id="container">
+      <div class="box">
+
+        <div class="img-box" title="Animals"><img src="images/animals.jpg" alt=""></div>
+
+        <div class="content">
+          <h2>Animals</h2>
+          <p>The Oakland Zoo is home to more than 850 native and exotic animals. Learn more about about our birds, mammals, reptiles, amphibians, and arthropods on your next visit!</p>
+          <a href="animals.html"><button class="ghost-btn">learn more...</button></a>
+
+        </div>
+
+      </div>
+
+      <div class="box">
+
+        <div class="img-box" title="Attractions"><img src="images/attractions.png" alt=""></div>
+
+        <div class="content">
+          <h2>Attractions</h2>
+          <p>Finished visiting your favorite animals and want some more fun? Check out some of our attractions for some more thrills to continue your adventure!</p>
+          <a href="attractions.html"><button class="ghost-btn">learn more...</button></a>
+        </div>
+
+      </div>
+
+      <div class="box">
+
+        <div class="img-box" title="Food"><img src="images/food.jpg" alt=""></div>
+
+        <div class="content">
+          <h2>Dining</h2>
+          <p>Keep your body filled with energy to keep your day going at the zoo with some of our famous eateries!</p>
+          <a href="food.html"><button class="ghost-btn">learn more...</button></a>
+        </div>
+
+      </div>
+
+      <div class="box">
+
+        <div class="img-box" title="Live Cams"><img src="images/live.png" alt=""></div>
+
+        <div class="content">
+          <h2>Live Cams</h2>
+          <p>Check out how some of your favorite animals are doing with our live cams!</p>
+          <a href="live.html"><button class="ghost-btn">learn more...</button></a>
+        </div>
+
+      </div>
+
+    </div>
   </div>
-
-  <script type="text/javascript">
-    const menuToggle = document.querySelector('.toggle');
-    const showcase = document.querySelector('.showcase');
-
-    menuToggle.addEventListener('click', () => {
-      menuToggle.classList.toggle('active');
-      showcase.classList.toggle('active');
-    })
-  </script>
-
-
-  <div class="container" id="container">
-    <div class="box">
-
-      <div class="img-box" title="Animals"><img src="images/animals.jpg" alt=""></div>
-
-      <div class="content">
-        <h2>Animals</h2>
-        <p>The Oakland Zoo is home to more than 850 native and exotic animals. Learn more about about our birds, mammals, reptiles, amphibians, and arthropods on your next visit!</p>
-        <a href="animals.html"><button class="ghost-btn">learn more...</button></a>
-
-      </div>
-
-    </div>
-
-    <div class="box">
-
-      <div class="img-box" title="Attractions"><img src="images/attractions.png" alt=""></div>
-
-      <div class="content">
-        <h2>Attractions</h2>
-        <p>Finished visiting your favorite animals and want some more fun? Check out some of our attractions for some more thrills to continue your adventure!</p>
-        <a href="attractions.html"><button class="ghost-btn">learn more...</button></a>
-      </div>
-
-    </div>
-
-    <div class="box">
-
-      <div class="img-box" title="Food"><img src="images/food.jpg" alt=""></div>
-
-      <div class="content">
-        <h2>Dining</h2>
-        <p>Keep your body filled with energy to keep your day going at the zoo with some of our famous eateries!</p>
-        <a href="food.html"><button class="ghost-btn">learn more...</button></a>
-      </div>
-
-    </div>
-
-    <div class="box">
-
-      <div class="img-box" title="Live Cams"><img src="images/live.png" alt=""></div>
-
-      <div class="content">
-        <h2>Live Cams</h2>
-        <p>Check out how some of your favorite animals are doing with our live cams!</p>
-        <a href="live.html"><button class="ghost-btn">learn more...</button></a>
-      </div>
-
-    </div>
-
-  </div>
-</div>
 
 </body>
 
